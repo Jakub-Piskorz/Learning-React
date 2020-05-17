@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "format": "prettier \"src/**/*.{js,css}\"",
+    "format": "prettier \"src/**/*.{js,css}\" --write",
     "dev": "parcel src/index.html",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "test": "echo \"Error: no test specified\" && exit 1"
